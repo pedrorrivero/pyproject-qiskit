@@ -30,18 +30,26 @@ from pathlib import Path
 EXCLUDE = {"README.md"}
 
 
-def symlink_files(original: Path, host_dir: Path) -> None:
-    """Recursively create symlinks(s) to file(s) in original path into host directory."""
+def symlink_files(original: Path, host_dir: Path, relative: Path = None) -> None:
+    """Recursively create symlinks(s) to file(s) in original path into host directory.
+    
+    Args:
+        original: path to original file or directory.
+        host_dir: directory to host the symlinks.
+        relative: relative path to build the symlinks from.
+    """
     # Input standardization
     original = original.resolve()
     host_dir = host_dir.resolve()
     if not host_dir.is_dir():
         host_dir = host_dir.parent
+    relative = relative.resolve()
     
     # Logic
     host = host_dir.joinpath(original.name)
     if original.is_file():
-        original = original.relative_to(host_dir)
+        if relative is not None:
+            original = original.relative_to(relative)
         host.symlink_to(original)
     elif original.is_dir():
         host.mkdir(parents=True, exist_ok=True)
@@ -56,4 +64,4 @@ if __name__ == "__main__":
     repo = submodule.parent
     for file in submodule.iterdir():
         if file.name not in EXCLUDE:
-            symlink_files(file, repo)
+            symlink_files(file, repo, repo)
