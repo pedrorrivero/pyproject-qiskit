@@ -44,15 +44,15 @@
 7. [License](#license)
 
 #### For users
-1. [Installation](https://github.com/pedrorrivero/pyproject-qiskit/tree/main/INSTALL.md)
+1. [Installation](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/INSTALL.md)
 2. [Tutorials](https://github.com/pedrorrivero/pyproject-qiskit/tree/main/docs/tutorials/)
-3. [Reference Guide](https://github.com/pedrorrivero/pyproject-qiskit/tree/main/docs/reference_guide.md)
+3. [Reference Guide](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/docs/reference_guide.md)
 4. [How-tos](https://github.com/pedrorrivero/pyproject-qiskit/tree/main/docs/how_tos/)
 5. [Explanations](https://github.com/pedrorrivero/pyproject-qiskit/tree/main/docs/explanations/)
-6. [How to Give Feedback](https://github.com/pedrorrivero/pyproject-qiskit/tree/main/CONTRIBUTING.md#giving-feedback)
+6. [How to Give Feedback](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CONTRIBUTING.md#giving-feedback)
 
 #### For developers
-1. [Contribution Guidelines](https://github.com/pedrorrivero/pyproject-qiskit/tree/main/CONTRIBUTING.md)
+1. [Contribution Guidelines](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CONTRIBUTING.md)
 
 
 ----------------------------------------------------------------------
@@ -75,7 +75,7 @@ Check out our [landing page](https://qiskit-community.github.io/prototypes/) and
 
 ### Deprecation Policy
 
-Prototypes are meant to evolve rapidly and, as such, do not follow [Qiskit's deprecation policy](https://qiskit.org/documentation/contributing_to_qiskit.html#deprecation-policy). We may occasionally make breaking changes in order to improve the user experience. When possible, we will keep old interfaces and mark them as deprecated, as long as they can co-exist with the new ones. Each substantial improvement, breaking change, or deprecation will be documented in [`CHANGELOG.md`](https://github.com/pedrorrivero/pyproject-qiskit/tree/main/CHANGELOG.md).
+Prototypes are meant to evolve rapidly and, as such, do not follow [Qiskit's deprecation policy](https://qiskit.org/documentation/contributing_to_qiskit.html#deprecation-policy). We may occasionally make breaking changes in order to improve the user experience. When possible, we will keep old interfaces and mark them as deprecated, as long as they can co-exist with the new ones. Each substantial improvement, breaking change, or deprecation will be documented in [`CHANGELOG.md`](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CHANGELOG.md).
 
 
 ----------------------------------------------------------------------
@@ -101,4 +101,4 @@ Importantly, *[Qiskit IBM Runtime](https://qiskit.org/documentation/partners/qis
 ----------------------------------------------------------------------
 
 ### License
-[Apache License 2.0](https://github.com/pedrorrivero/pyproject-qiskit/tree/main/LICENSE.txt)
+[Apache License 2.0](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/LICENSE.txt)
