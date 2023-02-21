@@ -27,7 +27,7 @@
 from pathlib import Path
 
 
-EXCLUDE = {"README.md"}
+EXCLUDE = {"README.md", ".git"}
 
 
 def symlink_files(original: Path, host_dir: Path, relative: Path = None) -> None:
