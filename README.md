@@ -8,7 +8,7 @@
   [![Tests](https://github.com/pedrorrivero/pyproject-qiskit/actions/workflows/test.yml/badge.svg)](https://github.com/pedrorrivero/pyproject-qiskit/actions/workflows/test.yml)
   [![Coverage](https://coveralls.io/repos/github/pedrorrivero/pyproject-qiskit/badge.svg?branch=main)](https://coveralls.io/github/pedrorrivero/pyproject-qiskit?branch=main)
   [![Release](https://img.shields.io/github/release/pedrorrivero/pyproject-qiskit.svg?include_prereleases&label=Release)](https://github.com/pedrorrivero/pyproject-qiskit/releases)
-  [![DOI](https://img.shields.io/badge/DOI-zz.nnnn/zenodo.ddddddd-informational]()
+  [![DOI](https://img.shields.io/badge/DOI-zz.nnnn/zenodo.ddddddd-informational](https://zenodo.org/)
   [![License](https://img.shields.io/github/license/pedrorrivero/pyproject-qiskit?label=License)](LICENSE.txt)
 
 </div>
