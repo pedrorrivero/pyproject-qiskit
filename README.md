@@ -18,7 +18,7 @@
   <a href="README.md">
     <img src="https://github.com/pedrorrivero/pyproject-qiskit/blob/main/docs/media/cover.png?raw=true" alt="Logo" width="300">
   </a>
-  <h2 align="center">Staged Primitives</h2>
+  <h2 align="center">Pyproject Qiskit</h2>
 </p>
 <!-- QUICK LINKS -->
 <!-- <p align="center">
