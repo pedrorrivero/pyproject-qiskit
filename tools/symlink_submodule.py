@@ -43,18 +43,20 @@ def symlink_files(original: Path, host_dir: Path, relative: Path = None) -> None
     host_dir = host_dir.resolve()
     if not host_dir.is_dir():
         host_dir = host_dir.parent
-    relative = relative.resolve()
+    if relative is None:
+        relative = Path()
+    else:
+        relative = relative.resolve()
     
     # Logic
     host = host_dir.joinpath(original.name)
     if original.is_file():
-        if relative is not None:
-            original = original.relative_to(relative)
+        original = original.relative_to(relative)
         host.symlink_to(original)
     elif original.is_dir():
         host.mkdir(parents=True, exist_ok=True)
         for path in original.iterdir():
-            symlink_files(path, host)
+            symlink_files(path, host, relative)
 
 
 if __name__ == "__main__":
