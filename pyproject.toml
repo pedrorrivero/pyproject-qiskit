@@ -41,8 +41,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "tox >= 4.2.0",
-    "tox-ignore-env-name-mismatch ~= 0.2.0",
+    "tox >= 4.4.6",
     "pre-commit >= 2.19.0",
     "commitizen >= 2.28.0",
 ]
