@@ -10,7 +10,7 @@ on:
       - main
       - 'stable/**'
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 0 * * *'
 
 jobs:
   dev-tests:
