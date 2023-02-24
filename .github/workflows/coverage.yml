@@ -33,8 +33,10 @@ jobs:
       - name: Run coverage
         run: tox -e coverage
       - name: Convert to lcov
+        if: always()
         run: coveragepy-lcov --output_file_path coveralls.info
       - name: Upload report to Coveralls
+        if: success()
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
