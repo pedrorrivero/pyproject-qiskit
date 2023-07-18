@@ -10,7 +10,7 @@
 # copyright notice, and modified files need to carry a notice indicating
 # that they have been altered from the originals.
 
-from collections.abc import Iterable
+from collections.abc import Iterable, Sequence
 
 from pyproject_qiskit import __version__
 
@@ -44,6 +44,8 @@ NO_NUM = [t for t in NO_REAL if not isinstance(t, complex)]
 ITERS = [t for t in TYPES if isinstance(t, Iterable)]
 NO_ITERS = [t for t in TYPES if not isinstance(t, Iterable)]
 NO_ITERS_NONE = [t for t in NO_ITERS if t is not None]
+NO_SEQS = [t for t in TYPES if not isinstance(t, Sequence)]
+NO_SEQS_NONE = [t for t in NO_SEQS if t is not None]
 
 
 ################################################################################
@@ -59,4 +61,6 @@ __all__ = [
     "ITERS",
     "NO_ITERS",
     "NO_ITERS_NONE",
+    "NO_SEQS",
+    "NO_SEQS_NONE",
 ]
