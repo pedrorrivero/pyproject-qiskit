@@ -17,7 +17,7 @@
   <a href="README.md">
     <img src="https://github.com/pedrorrivero/pyproject-qiskit/blob/main/docs/media/cover.png?raw=true" alt="Logo" width="300">
   </a>
-  <h2 align="center">Pyproject Qiskit</h2>
+  <h1 align="center">Pyproject Qiskit</h1>
 </p>
 
 <!-- QUICK LINKS -->
@@ -33,7 +33,7 @@
 
 ----------------------------------------------------------------------
 
-### Table of contents
+## Table of contents
 
 1. [About This Project](#about-this-project)
 2. [Installation](#installing-and-contributing)
@@ -48,7 +48,7 @@
 
 ----------------------------------------------------------------------
 
-### About This Project
+## About This Project
 
 This template repository is a tool for creating [Qiskit](https://www.ibm.com/quantum/qiskit)-based Python projects quickly. It provides much of the necessary boilerplate code and configurations needed for a fully functional, professional, software package.
 
@@ -73,7 +73,7 @@ We encourage you to use this template repository to start developing your own pr
 
 ----------------------------------------------------------------------
 
-### Installation
+## Installation
 
 The latest version of this software package can be easily installed, alongside all required dependencies, via `pip`:
 ```
@@ -85,7 +85,7 @@ For more detailed information and alternative installation options see the [inst
 
 ----------------------------------------------------------------------
 
-### Documentation
+## Documentation
 
 - This project includes a quick [reference guide](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/docs/reference_guide.md) to get started with.
 - Complete documentation can be found in the code docstrings.
@@ -94,7 +94,7 @@ For more detailed information and alternative installation options see the [inst
 
 ----------------------------------------------------------------------
 
-### Deprecation Policy
+## Deprecation Policy
 
 This package is meant to evolve rapidly and, as such, does not follow [Qiskit's deprecation policy](https://github.com/Qiskit/qiskit/blob/main/DEPRECATION.md). 
 
@@ -105,7 +105,7 @@ Careful version specification is encouraged (e.g. [version pinning](https://www.
 
 ----------------------------------------------------------------------
 
-### Contributing
+## Contributing
 
 - The easiest way to contribute is by [giving feedback](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CONTRIBUTING.md#giving-feedback).
 - If you wish to contribute to the development of the software, you must read and follow our[contribution guidelines](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CONTRIBUTING.md).
@@ -114,27 +114,27 @@ Careful version specification is encouraged (e.g. [version pinning](https://www.
 
 ----------------------------------------------------------------------
 
-### Authors and Citation
+## Authors and Citation
 
 This project is the work of [many people](https://github.com/pedrorrivero/pyproject-qiskit/graphs/contributors) who contribute at different levels. Please cite as per the included [BibTeX file](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CITATION.bib).
 
 
 ----------------------------------------------------------------------
 
-### Acknowledgements
+## Acknowledgements
 
 - *Pedro Rivero*: for the development of [`pyproject-qiskit`](https://github.com/pedrorrivero/pyproject-qiskit), an open-source template repository for Qiskit-based software projects.
 
 
 ----------------------------------------------------------------------
 
-### References
+## References
 
 [1] [Qiskit](https://github.com/Qiskit/qiskit): An Open-source Framework for Quantum Computing
 
 
 ----------------------------------------------------------------------
 
-### License
+## License
 
 [Apache License 2.0](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/LICENSE.txt)
