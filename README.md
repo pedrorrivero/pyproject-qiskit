@@ -4,7 +4,9 @@
   ![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-informational)
   [![Python](https://img.shields.io/badge/Python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-informational)](https://www.python.org/)
   [![Qiskit](https://img.shields.io/badge/Qiskit-%E2%89%A5%200.45.1-6133BD)](https://github.com/Qiskit/qiskit)
+
 <br />
+
   [![Tests](https://github.com/pedrorrivero/pyproject-qiskit/actions/workflows/test.yml/badge.svg)](https://github.com/pedrorrivero/pyproject-qiskit/actions/workflows/test.yml)
   [![Coverage](https://coveralls.io/repos/github/pedrorrivero/pyproject-qiskit/badge.svg?branch=main)](https://coveralls.io/github/pedrorrivero/pyproject-qiskit?branch=main)
   [![Release](https://img.shields.io/github/release/pedrorrivero/pyproject-qiskit.svg?include_prereleases&label=Release)](https://github.com/pedrorrivero/pyproject-qiskit/releases)
@@ -12,14 +14,17 @@
   [![License](https://img.shields.io/github/license/pedrorrivero/pyproject-qiskit?label=License)](LICENSE.txt)
 
 </div>
-<!-- PROJECT LOGO -->
+
 <br />
+
+<!-- PROJECT LOGO -->
 <p align="center">
   <a href="README.md">
     <img src="https://github.com/pedrorrivero/pyproject-qiskit/blob/main/docs/media/cover.png?raw=true" alt="Logo" width="300">
   </a>
   <h2 align="center">Pyproject Qiskit</h2>
 </p>
+
 <!-- QUICK LINKS -->
 <!-- <p align="center">
   <a href="https://mybinder.org/">
@@ -36,69 +41,105 @@
 ### Table of contents
 
 1. [About This Project](#about-this-project)
-2. [About Prototypes](#about-prototypes)
-3. [Deprecation Policy](#deprecation-policy)
-4. [Using Quantum Services](#using-quantum-services)
-5. [Acknowledgements](#acknowledgements)
-6. [References](#references)
-7. [License](#license)
-
-#### For users
-1. [Installation](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/INSTALL.md)
-2. [Tutorials](https://github.com/pedrorrivero/pyproject-qiskit/tree/main/docs/tutorials/)
-3. [Reference Guide](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/docs/reference_guide.md)
-4. [How-tos](https://github.com/pedrorrivero/pyproject-qiskit/tree/main/docs/how_tos/)
-5. [Explanations](https://github.com/pedrorrivero/pyproject-qiskit/tree/main/docs/explanations/)
-6. [How to Give Feedback](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CONTRIBUTING.md#giving-feedback)
-
-#### For developers
-1. [Contribution Guidelines](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CONTRIBUTING.md)
+2. [Installation](#installing-and-contributing)
+3. [Documentation](#documentation)
+4. [Deprecation Policy](#deprecation-policy)
+5. [Contributing](#contributing)
+6. [Authors and Citation](#authors-and-citation)
+7. [Acknowledgements](#acknowledgements)
+8. [References](#references)
+9. [License](#license)
 
 
 ----------------------------------------------------------------------
 
 ### About This Project
-This template repository is a tool for creating Qiskit-based Python projects quickly by providing much of the necessary boilerplate code. The code examples in this template repository are written in accordance with pylint style checks, and the sample `pyproject_qiskit` module has an associated unit test module. We have also included examples of coverage testing, notebook tests, and notebook lint checks and wrapped all of these using [tox](https://github.com/tox-dev/tox) automated testing software. Check out the [file glossary](https://github.com/qiskit-community/quantum-prototype-template/blob/main/docs/file-map-and-description.md) for more information on each tool used in this repository.
 
-We encourage you to use this template repository to begin your own research projects!
+This template repository is a tool for creating [Qiskit](https://www.ibm.com/quantum/qiskit)-based Python projects quickly. It provides much of the necessary boilerplate code and configurations needed for a fully functional, professional, software package.
+
+Check out the [file map](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/FILEMAP.md) for more information on the structure of the repository.
+
+<details>
+<summary>The history behind</summary>
+
+This template was originally put together for quick development of _Quantum Software Prototypes_. Prototypes are collaborations between developers and researchers to bring users early access to solutions from cutting-edge research. The resulting software packages are built on top of, and may eventually be integrated into [Qiskit](https://www.ibm.com/quantum/qiskit).
+
+We encourage you to use this template repository to start developing your own prototypes!
+</details>
+
+<details>
+<summary>Some projects using this template</summary>
+
+- [Quantum Enablement](https://github.com/IBM-Quantum-Technical-Enablement/quantum-enablement)
+- [Prototype ZNE](https://github.com/qiskit-community/prototype-zne)
+- [PR Toolbox](https://github.com/pedrorrivero/pr-toolbox)
+- [Staged Primitives](https://github.com/Qiskit-Extensions/staged-primitives)
+</details>
 
 ----------------------------------------------------------------------
 
-### About Prototypes
+### Installation
 
-Prototypes is a collaboration between developers and researchers that will give users early access to solutions from cutting-edge research in areas like error mitigation, quantum simulation, and machine learning. These software packages are built on top of, and may eventually be integrated into the Qiskit SDK. They are a contribution as part of the Qiskit community.
+The latest version of this software package can be easily installed, alongside all required dependencies, via `pip`:
+```
+pip install pyproject-qiskit
+```
 
-Check out our [landing page](https://qiskit-community.github.io/prototypes/) and [blog post](https://medium.com/qiskit/try-out-the-latest-advances-in-quantum-computing-with-ibm-quantum-prototypes-11f51124cb61) for more information!
+For more detailed information and alternative installation options see the [installation guide](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/INSTALL.md).
+
+
+----------------------------------------------------------------------
+
+### Documentation
+
+- This project includes a quick [reference guide](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/docs/reference_guide.md) to get started with.
+- Complete documentation can be found in the code docstrings.
+- Check out the [file map](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/FILEMAP.md) for more information on the structure of this repository.
 
 
 ----------------------------------------------------------------------
 
 ### Deprecation Policy
 
-Prototypes are meant to evolve rapidly and, as such, do not follow [Qiskit's deprecation policy](https://qiskit.org/documentation/contributing_to_qiskit.html#deprecation-policy). We may occasionally make breaking changes in order to improve the user experience. When possible, we will keep old interfaces and mark them as deprecated, as long as they can co-exist with the new ones. Each substantial improvement, breaking change, or deprecation will be documented in [`CHANGELOG.md`](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CHANGELOG.md).
+This package is meant to evolve rapidly and, as such, does not follow [Qiskit's deprecation policy](https://github.com/Qiskit/qiskit/blob/main/DEPRECATION.md). 
+
+We may occasionally make breaking changes in order to improve the user experience. When possible, we will keep old interfaces and mark them as deprecated, as long as they can co-exist with the new ones. Each substantial improvement, breaking change, or deprecation will be documented in [`CHANGELOG.md`](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CHANGELOG.md). 
+
+Careful version specification is encouraged (e.g. [version pinning](https://www.easypost.com/dependency-pinning-guide)).
 
 
 ----------------------------------------------------------------------
 
-### Using Quantum Services
+### Contributing
 
-If you are interested in using quantum services (i.e. using a real quantum computer, not a simulator) you can look at the [Qiskit Partners program](https://qiskit.org/documentation/partners/) for partner organizations that have provider packages available for their offerings.
+- The easiest way to contribute is by [giving feedback](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CONTRIBUTING.md#giving-feedback).
+- If you wish to contribute to the development of the software, you must read and follow our[contribution guidelines](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CONTRIBUTING.md).
+- By participating, you are expected to uphold our [code of conduct](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CODE_OF_CONDUCT.md).
 
-Importantly, *[Qiskit IBM Runtime](https://qiskit.org/documentation/partners/qiskit_ibm_runtime)* is a quantum computing service and programming model that allows users to optimize workloads and efficiently execute them on quantum systems at scale; extending the existing interface in Qiskit with a set of new *primitive* programs.
+
+----------------------------------------------------------------------
+
+### Authors and Citation
+
+This project is the work of [many people](https://github.com/pedrorrivero/pyproject-qiskit/graphs/contributors) who contribute at different levels. Please cite as per the included [BibTeX file](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CITATION.bib).
 
 
 ----------------------------------------------------------------------
 
 ### Acknowledgements
-- *Bob Alice*: for scientific insight and guidance.
+
+- *Pedro Rivero*: for the development of [`pyproject-qiskit`](https://github.com/pedrorrivero/pyproject-qiskit), an open-source template repository for Qiskit-based software projects.
 
 
 ----------------------------------------------------------------------
 
 ### References
-[1] Diátaxis Technical Documentation Framework https://diataxis.fr/
+
+[1] [Qiskit](https://github.com/Qiskit/qiskit): An Open-source Framework for Quantum Computing
+
 
 ----------------------------------------------------------------------
 
 ### License
+
 [Apache License 2.0](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/LICENSE.txt)
