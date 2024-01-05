@@ -61,9 +61,9 @@
   auxiliary tools and scripts for repository maintenance.
   - [`extremal_dependency_versions.py`](tools/extremal_dependency_versions.py) --
     script for testing against minimum and development versions of specific dependencies.
-  - [symlink_submodule.py](tools/symlink_submodule.py) -- 
+  - [`symlink_submodule.py`](tools/symlink_submodule.py) -- 
     auxiliary script to create symlinks to submodule files in base repo.
-  - [travis_before_script.bash](tools/travis_before_script.bash) --
+  - [`travis_before_script.bash`](tools/travis_before_script.bash) --
     auxiliary script for extremal dependency testing using [Travis-CI](https://www.travis-ci.com/).
 
 
