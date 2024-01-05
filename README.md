@@ -23,14 +23,14 @@
 </p>
 
 <!-- QUICK LINKS -->
-<!-- <p align="center">
+<p align="center">
   <a href="https://mybinder.org/">
     <img src="https://ibm.biz/BdPq3s" alt="Launch Demo" hspace="5" vspace="10">
   </a>
   <a href="https://www.youtube.com/c/qiskit">
     <img src="https://img.shields.io/badge/watch-video-FF0000.svg?style=for-the-badge&logo=youtube" alt="Watch Video" hspace="5" vspace="10">
   </a>
-</p> -->
+</p>
 
 
 ----------------------------------------------------------------------
