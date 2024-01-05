@@ -10,9 +10,7 @@
   [![DOI](https://img.shields.io/badge/DOI-zz.nnnn/zenodo.ddddddd-informational)](https://zenodo.org/)
   [![License](https://img.shields.io/github/license/pedrorrivero/pyproject-qiskit?label=License)](LICENSE.txt)
 
-</div>
-
-<br />
+</div> <br />
 
 <!-- PROJECT LOGO -->
 <p align="center">
