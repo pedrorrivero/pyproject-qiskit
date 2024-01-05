@@ -12,7 +12,7 @@
 
 </div> <br />
 
-<!-- PROJECT LOGO -->
+<!-- PROJECT LOGO AND TITLE -->
 <p align="center">
   <a href="README.md">
     <img src="https://github.com/pedrorrivero/pyproject-qiskit/blob/main/docs/media/cover.png?raw=true" alt="Logo" width="300">
