@@ -1,4 +1,4 @@
-# File descriptions
+# Repository structure
 
 ## Guidelines
 
@@ -21,7 +21,7 @@
 ## Software package
 
 - `<pyproject_qiskit>` -- 
-  it will have a different name for each repository using the [`pyproject_qiskit` template](https://github.com/pedrorrivero/pyproject-qiskit), and it holds the source code for the software package. This name will determine how the package is imported after installation (e.g. `from <pyproject_qiskit> import __version__`).
+  it will have a different name for each repository using the [`pyproject-qiskit` template](https://github.com/pedrorrivero/pyproject-qiskit), and it holds the source code for the software package. This name will determine how the package is imported after installation (e.g. `from <pyproject_qiskit> import __version__`).
 - [`docs`](docs) -- 
   documentation for the repository (e.g. tutorials, API docs, reference guide).
 - [`test`](test) -- 
