@@ -123,7 +123,10 @@ This project is the work of [many people](https://github.com/pedrorrivero/pyproj
 
 ## Acknowledgements
 
-- *Pedro Rivero*: for the development of [`pyproject-qiskit`](https://github.com/pedrorrivero/pyproject-qiskit), an open-source template repository for Qiskit-based software projects.
+- [*Pedro Rivero*](https://github.com/pedrorrivero):
+  for the development of [`pyproject-qiskit`](https://github.com/pedrorrivero/pyproject-qiskit), an open-source template repository for Qiskit-based software projects.
+- [*Jim Garrison*](https://github.com/garrison):
+  for insightful discussions and the original development of scripts for extremal version testing.
 
 
 <!-- ---------------------------------------------------------------------- -->
