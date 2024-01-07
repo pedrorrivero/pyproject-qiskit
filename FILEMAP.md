@@ -67,7 +67,7 @@
     auxiliary script for extremal dependency testing using [Travis-CI](https://www.travis-ci.com/).
 
 
-## Testing
+## Testing and style
 
 - [`.coveragerc`](.coveragerc) --
   configuration for the [code coverage tool](https://coverage.readthedocs.io) used in testing.
