@@ -108,7 +108,7 @@ Careful version specification is encouraged (e.g. [version pinning](https://www.
 ## Contributing
 
 - The easiest way to contribute is by [giving feedback](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CONTRIBUTING.md#giving-feedback).
-- If you wish to contribute to the development of the software, you must read and follow our[contribution guidelines](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CONTRIBUTING.md).
+- If you wish to contribute to the development of the software, you must read and follow our [contribution guidelines](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CONTRIBUTING.md).
 - By participating, you are expected to uphold our [code of conduct](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CODE_OF_CONDUCT.md).
 
 
