@@ -36,7 +36,7 @@
 ## Table of contents
 
 1. [About This Project](#about-this-project)
-2. [Installation](#installing-and-contributing)
+2. [Installation](#installation)
 3. [Documentation](#documentation)
 4. [Deprecation Policy](#deprecation-policy)
 5. [Contributing](#contributing)
