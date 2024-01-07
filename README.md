@@ -52,15 +52,9 @@
 
 This template repository is a tool for creating [Qiskit](https://www.ibm.com/quantum/qiskit)-based Python projects quickly. It provides much of the necessary boilerplate code and configurations needed for a fully functional, professional, software package.
 
+It was originally put together for quick development of _Quantum Software Prototypes_: collaborations between developers and researchers to bring users early access to solutions from cutting-edge research.
+
 Check out the [file map](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/FILEMAP.md) for more information on the structure of the repository.
-
-<details>
-<summary>The history behind</summary>
-
-This template was originally put together for quick development of _Quantum Software Prototypes_. Prototypes are collaborations between developers and researchers to bring users early access to solutions from cutting-edge research. The resulting software packages are built on top of, and may eventually be integrated into [Qiskit](https://www.ibm.com/quantum/qiskit).
-
-We encourage you to use this template repository to start developing your own prototypes!
-</details>
 
 <details>
 <summary>Some projects using this template</summary>
