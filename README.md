@@ -31,7 +31,7 @@
 </p> -->
 
 
-----------------------------------------------------------------------
+<!-- ---------------------------------------------------------------------- -->
 
 ## Table of contents
 
@@ -46,7 +46,7 @@
 9. [License](#license)
 
 
-----------------------------------------------------------------------
+<!-- ---------------------------------------------------------------------- -->
 
 ## About This Project
 
@@ -71,7 +71,7 @@ We encourage you to use this template repository to start developing your own pr
 - [Staged Primitives](https://github.com/Qiskit-Extensions/staged-primitives)
 </details>
 
-----------------------------------------------------------------------
+<!-- ---------------------------------------------------------------------- -->
 
 ## Installation
 
@@ -83,7 +83,7 @@ pip install pyproject-qiskit
 For more detailed information and alternative installation options see the [installation guide](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/INSTALL.md).
 
 
-----------------------------------------------------------------------
+<!-- ---------------------------------------------------------------------- -->
 
 ## Documentation
 
@@ -92,7 +92,7 @@ For more detailed information and alternative installation options see the [inst
 - Check out the [file map](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/FILEMAP.md) for more information on the structure of this repository.
 
 
-----------------------------------------------------------------------
+<!-- ---------------------------------------------------------------------- -->
 
 ## Deprecation Policy
 
@@ -103,7 +103,7 @@ We may occasionally make breaking changes in order to improve the user experienc
 Careful version specification is encouraged (e.g. [version pinning](https://www.easypost.com/dependency-pinning-guide)).
 
 
-----------------------------------------------------------------------
+<!-- ---------------------------------------------------------------------- -->
 
 ## Contributing
 
@@ -112,28 +112,28 @@ Careful version specification is encouraged (e.g. [version pinning](https://www.
 - By participating, you are expected to uphold our [code of conduct](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CODE_OF_CONDUCT.md).
 
 
-----------------------------------------------------------------------
+<!-- ---------------------------------------------------------------------- -->
 
 ## Authors and Citation
 
 This project is the work of [many people](https://github.com/pedrorrivero/pyproject-qiskit/graphs/contributors) who contribute at different levels. Please cite as per the included [BibTeX file](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CITATION.bib).
 
 
-----------------------------------------------------------------------
+<!-- ---------------------------------------------------------------------- -->
 
 ## Acknowledgements
 
 - *Pedro Rivero*: for the development of [`pyproject-qiskit`](https://github.com/pedrorrivero/pyproject-qiskit), an open-source template repository for Qiskit-based software projects.
 
 
-----------------------------------------------------------------------
+<!-- ---------------------------------------------------------------------- -->
 
 ## References
 
 [1] [Qiskit](https://github.com/Qiskit/qiskit): An Open-source Framework for Quantum Computing
 
 
-----------------------------------------------------------------------
+<!-- ---------------------------------------------------------------------- -->
 
 ## License
 
