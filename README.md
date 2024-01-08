@@ -35,7 +35,7 @@
 
 ## Table of contents
 
-1. [About This Project](#about-this-project)
+1. [About this Project](#about-this-project)
 2. [Installation](#installation)
 3. [Documentation](#documentation)
 4. [Deprecation Policy](#deprecation-policy)
@@ -48,7 +48,7 @@
 
 <!-- ---------------------------------------------------------------------- -->
 
-## About This Project
+## About this Project
 
 This template repository is a tool for creating [Qiskit](https://www.ibm.com/quantum/qiskit)-based Python projects quickly. It provides much of the necessary boilerplate code and configurations needed for a fully functional, professional, software package.
 
