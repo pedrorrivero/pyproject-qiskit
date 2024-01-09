@@ -38,7 +38,6 @@ Other than submitting new source code, users can contribute in a number of meani
 
 - _Opening an issue_ in the repository for reporting bugs, enhancements, or requesting new features.
 - _Starting a conversation on GitHub Discussions_ and engaging with researchers, developers, and other users regarding this project.
-- Filling out our [survey](https://airtable.com/shr7sMAKUAjuIRpv7).
 
 
 ## Initial set-up
