@@ -77,7 +77,7 @@ notebook = [
 ]
 
 [project.urls]
-"Home" = "https://qiskit-community.github.io/prototypes/"
+"Home" = "https://github.com/pedrorrivero/"
 "Documentation" = "https://github.com/pedrorrivero/pyproject-qiskit/tree/main/docs/"
 "Repository" = "https://github.com/pedrorrivero/pyproject-qiskit/"
 "Download" = "https://pypi.org/project/pyproject-qiskit/"
