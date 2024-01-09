@@ -90,11 +90,11 @@ tox -e style
 We adhere to the [google docstring guide](https://docs.idmod.org/projects/doc-guidance/en/latest/docstrings.html). If you make any changes to the code, remember updating the docstring wherever relevant.
 
 ### Copyright notice
-All source files in the repository must begin with the appropriate copyright notice. For instance, for the year 2023:
+All source files in the repository must begin with the appropriate copyright notice. For instance, for the year 2024:
 ```python
 # This code is part of Qiskit.
 #
-# (C) Copyright IBM 2023.
+# (C) Copyright IBM 2024.
 #
 # This code is licensed under the Apache License, Version 2.0. You may
 # obtain a copy of this license in the LICENSE.txt file in the root directory
