@@ -12,7 +12,7 @@
   a summary of the repository structure and explanations of the different files and folders.
 - [`INSTALL.md`](INSTALL.md) --
   guidelines to install the software package contained in this repo.
-- [`LICENSE.md`](LICENSE.md) --
+- [`LICENSE.txt`](LICENSE.txt) --
   one of the [standard legal requirements](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) for an open source project. There are different types of [licenses for software](https://en.wikipedia.org/wiki/Software_license), some of the most popular being [open source](https://opensource.org/licenses).
 - [`README.md`](README.md) -- 
   main readme for repository.
