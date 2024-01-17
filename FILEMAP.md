@@ -37,7 +37,11 @@
   - [`unit`](test/unit/) -- 
     folder for [unit tests](https://en.wikipedia.org/wiki/Unit_testing).
 - [`pyproject.toml`](pyproject.toml) --
-  file containing the [build and package configurations](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/) for the python project. This file also contains configurations for [Black](https://black.readthedocs.io/), a tool for automatic code formatting.
+  file containing the [build and package configurations](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/) for the python project. This file also contains configurations for:
+  - [Black](https://black.readthedocs.io/) --
+    a tool for automatic code formatting.
+  - [Autoflake](https://github.com/PyCQA/autoflake) -- 
+    a tool for removing unused imports and variables.
 
 
 ## CI/CD
