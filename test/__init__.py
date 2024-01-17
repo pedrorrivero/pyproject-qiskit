@@ -10,12 +10,15 @@
 # copyright notice, and modified files need to carry a notice indicating
 # that they have been altered from the originals.
 
+"""Tests."""
+
 from collections.abc import Iterable, Sequence
 
 from pyproject_qiskit import __version__
 
 
 def test_version():
+    """Version test."""
     assert __version__ == "0.0.0"
 
 
