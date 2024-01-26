@@ -1,4 +1,4 @@
-# Quantum Prototype Installation Guide
+# Installation Guide
 
 The following installation guide is generic and therefore needs to be adapted to the particular package that you want to install. This is easily done by replacing:
 1. The template _repo url_ `https://github.com/pedrorrivero/pyproject-qiskit.git` with the url of the remote git repository hosting the package (e.g. `https://github.com/Qiskit-Extensions/staged-primitives.git`).
