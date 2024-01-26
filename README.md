@@ -72,7 +72,7 @@ Check out the [file map](https://github.com/pedrorrivero/pyproject-qiskit/blob/m
 
 The latest version of this software package can be easily installed, alongside all required dependencies, via `pip`:
 ```
-pip install pyproject-qiskit
+pip install pyproject-qiskit@git+https://github.com/pedrorrivero/pyproject-qiskit
 ```
 
 For more detailed information and alternative installation options see the [installation guide](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/INSTALL.md).
