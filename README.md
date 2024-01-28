@@ -54,7 +54,7 @@ This template repository is a tool for creating [Qiskit](https://www.ibm.com/qua
 
 It was originally put together for quick development of _Quantum Software Prototypes_: collaborations between developers and researchers to bring users early access to solutions from cutting-edge research.
 
-Check out the [file map](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/FILEMAP.md) for more information on the structure of the repository.
+Check out the [file map](FILEMAP.md) for more information on the structure of the repository.
 
 <details>
 <summary>Some projects using this template</summary>
@@ -75,16 +75,16 @@ The latest version of this software package can be easily installed, alongside a
 pip install pyproject-qiskit@git+https://github.com/pedrorrivero/pyproject-qiskit
 ```
 
-For more detailed information and alternative installation options see the [installation guide](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/INSTALL.md).
+For more detailed information and alternative installation options see the [installation guide](INSTALL.md).
 
 
 <!-- ---------------------------------------------------------------------- -->
 
 ## Documentation
 
-- This project includes a quick [reference guide](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/docs/reference_guide.md) to get started with.
+- This project includes a quick [reference guide](docs/reference_guide.md) to get started with.
 - Complete documentation can be found in the code docstrings.
-- Check out the [file map](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/FILEMAP.md) for more information on the structure of this repository.
+- Check out the [file map](FILEMAP.md) for more information on the structure of this repository.
 
 
 <!-- ---------------------------------------------------------------------- -->
@@ -93,7 +93,7 @@ For more detailed information and alternative installation options see the [inst
 
 This package is meant to evolve rapidly and, as such, does not follow [Qiskit's deprecation policy](https://github.com/Qiskit/qiskit/blob/main/DEPRECATION.md). 
 
-We may occasionally make breaking changes in order to improve the user experience. When possible, we will keep old interfaces and mark them as deprecated, as long as they can co-exist with the new ones. Each substantial improvement, breaking change, or deprecation will be documented in [`CHANGELOG.md`](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CHANGELOG.md). 
+We may occasionally make breaking changes in order to improve the user experience. When possible, we will keep old interfaces and mark them as deprecated, as long as they can co-exist with the new ones. Each substantial improvement, breaking change, or deprecation will be documented in [`CHANGELOG.md`](CHANGELOG.md). 
 
 Careful version specification is encouraged (e.g. [version pinning](https://www.easypost.com/dependency-pinning-guide)).
 
@@ -102,16 +102,16 @@ Careful version specification is encouraged (e.g. [version pinning](https://www.
 
 ## Contributing
 
-- The easiest way to contribute is by [giving feedback](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CONTRIBUTING.md#giving-feedback).
-- If you wish to contribute to the development of the software, you must read and follow our [contribution guidelines](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CONTRIBUTING.md).
-- By participating, you are expected to uphold our [code of conduct](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CODE_OF_CONDUCT.md).
+- The easiest way to contribute is by [giving feedback](CONTRIBUTING.md#giving-feedback).
+- If you wish to contribute to the development of the software, you must read and follow our [contribution guidelines](CONTRIBUTING.md).
+- By participating, you are expected to uphold our [code of conduct](CODE_OF_CONDUCT.md).
 
 
 <!-- ---------------------------------------------------------------------- -->
 
 ## Authors and Citation
 
-This project is the work of [many people](https://github.com/pedrorrivero/pyproject-qiskit/graphs/contributors) who contribute at different levels. Please cite as per the included [BibTeX file](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/CITATION.bib).
+This project is the work of [many people](https://github.com/pedrorrivero/pyproject-qiskit/graphs/contributors) who contribute at different levels. Please cite as per the included [BibTeX file](CITATION.bib).
 
 
 <!-- ---------------------------------------------------------------------- -->
@@ -135,4 +135,4 @@ This project is the work of [many people](https://github.com/pedrorrivero/pyproj
 
 ## License
 
-[Apache License 2.0](https://github.com/pedrorrivero/pyproject-qiskit/blob/main/LICENSE.txt)
+[Apache License 2.0](LICENSE.txt)
