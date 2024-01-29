@@ -2,7 +2,7 @@
 docs/
 pyproject_qiskit/
 test/
-# PACKAGE
+# SOFTWARE
 .cz.toml
 CITATION.bib
 pyproject.toml

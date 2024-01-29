@@ -50,7 +50,7 @@
 
 ## About this Project
 
-This template repository is a tool for creating [Qiskit](https://www.ibm.com/quantum/qiskit)-based Python projects quickly. It provides much of the necessary boilerplate code and configurations needed for a fully functional, professional, software package.
+This template repository is a tool for creating [Qiskit](https://www.ibm.com/quantum/qiskit)-based Python projects quickly. It provides much of the necessary boilerplate code and configurations needed for a fully functional, professional, software.
 
 It was originally put together for quick development of _Quantum Software Prototypes_: collaborations between developers and researchers to bring users early access to solutions from cutting-edge research.
 
@@ -70,7 +70,7 @@ Check out the [file map](FILEMAP.md) for more information on the structure of th
 
 ## Installation
 
-The latest version of this software package can be easily installed, alongside all required dependencies, via `pip`:
+The latest version of this software can be easily installed, alongside all required dependencies, via `pip`:
 ```
 pip install pyproject-qiskit@git+https://github.com/pedrorrivero/pyproject-qiskit
 ```
@@ -91,7 +91,7 @@ For more detailed information and alternative installation options see the [inst
 
 ## Deprecation Policy
 
-This package is meant to evolve rapidly and, as such, does not follow [Qiskit's deprecation policy](https://github.com/Qiskit/qiskit/blob/main/DEPRECATION.md). 
+This software is meant to evolve rapidly and, as such, does not follow [Qiskit's deprecation policy](https://github.com/Qiskit/qiskit/blob/main/DEPRECATION.md). 
 
 We may occasionally make breaking changes in order to improve the user experience. When possible, we will keep old interfaces and mark them as deprecated, as long as they can co-exist with the new ones. Each substantial improvement, breaking change, or deprecation will be documented in [`CHANGELOG.md`](CHANGELOG.md). 
 
