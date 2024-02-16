@@ -3,7 +3,7 @@
 
   ![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-informational)
   [![Python](https://img.shields.io/badge/Python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-informational)](https://www.python.org/)
-  [![Qiskit](https://img.shields.io/badge/Qiskit-%E2%89%A5%200.45.1-6133BD)](https://github.com/Qiskit/qiskit) <br />
+  [![Qiskit](https://img.shields.io/badge/Qiskit-%E2%89%A5%201.0.0-6133BD)](https://github.com/Qiskit/qiskit) <br />
   [![Tests](https://github.com/pedrorrivero/pyproject-qiskit/actions/workflows/test.yml/badge.svg)](https://github.com/pedrorrivero/pyproject-qiskit/actions/workflows/test.yml)
   [![Coverage](https://coveralls.io/repos/github/pedrorrivero/pyproject-qiskit/badge.svg?branch=main)](https://coveralls.io/github/pedrorrivero/pyproject-qiskit?branch=main)
   [![Release](https://img.shields.io/github/release/pedrorrivero/pyproject-qiskit.svg?include_prereleases&label=Release)](https://github.com/pedrorrivero/pyproject-qiskit/releases)
